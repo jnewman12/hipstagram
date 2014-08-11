@@ -1,0 +1,17 @@
+development:
+ adapter: postgresql
+ encoding: unicode
+ database: hipstagram_dev
+ host: localhost
+ pool: 5
+ username: jamesnewman
+ password: password
+
+test:
+ adapter: postgresql
+ encoding: unicode
+ database: hipstagram_test
+ host: localhost
+ pool: 5
+ username: jamesnewman
+ password: password
