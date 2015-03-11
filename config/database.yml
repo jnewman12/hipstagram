@@ -4,8 +4,8 @@ development:
  database: hipstagram_dev
  host: localhost
  pool: 5
- username: jamesnewman
- password: password
+ username: ENV['DB_USER']
+ password: ENV['DB_PASS']
 
 test:
  adapter: postgresql
@@ -13,5 +13,5 @@ test:
  database: hipstagram_test
  host: localhost
  pool: 5
- username: jamesnewman
- password: password
+ username: ENV['DB_USER']
+ password: ENV['DB_PASS']
